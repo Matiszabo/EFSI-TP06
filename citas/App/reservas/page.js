@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/Navbar/Navbar"
 import { useState } from 'react';
-import { Formulario } from "@/components/Form/Form";
+import { Form } from "@/components/Form/Form";
 import {Lista} from "@/components/Lista/Lista";
 
 export default function Page() {
@@ -14,7 +14,7 @@ export default function Page() {
           <div class="row">
             <div class="one-half column">
               <h2>Crear mi Cita</h2>
-              <Formulario citas={citas} setCitas={setCitas} />
+              <Form citas={citas} setCitas={setCitas} />
             </div>
             <div className="one-half column">
               <Lista citas={citas} setCitas={setCitas}/>          
