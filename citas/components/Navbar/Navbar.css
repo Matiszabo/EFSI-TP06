@@ -1,0 +1,27 @@
+nav {
+    color: #fff;    
+    padding: 10px 20px; 
+    
+  }
+  
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline-block; 
+    margin-right: 40px; 
+  }
+  
+nav ul li a {
+    text-decoration: none; 
+    color: inherit; 
+    font-size: 25px; 
+  }
+
+  a:hover{
+    color: rgb(9, 22, 134);
+  }
+  

@@ -1,0 +1,56 @@
+.casillaForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: inherit;
+    border-radius: 3px;
+    border: 0;
+    padding: 3px .5rem;
+    font-size: 15px;
+}
+
+textarea:focus, input:focus{
+    outline: 1px solid #33C3F0;
+    font-family: sans-serif;
+}
+
+textarea {
+    min-height: 68px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 33px;
+
+}
+
+form {
+    width: 30rem;
+}
+
+form .myBtn {
+    width: inherit;
+    color: #fff;
+    background-color: #33C3F0;
+    border-color:#33C3F0;
+}
+
+form .myBtn:hover {
+    background-color: #2391b3;
+    border-color: #2391b3;
+};
+
+input[type=date]{
+    font-family: Arial, sans-serif;
+}
