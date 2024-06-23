@@ -1,7 +1,6 @@
-import { Navbar } from "@/components/Navbar/Navbar"
 import { useState } from 'react';
-import { Form } from "@/components/Form/Form";
-import {Lista} from "@/components/Lista/Lista";
+import { Form } from "/components/Form/Form";
+import { Lista } from "/components/Lista/Lista";
 
 export default function Page() {
     

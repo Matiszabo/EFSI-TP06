@@ -45,7 +45,7 @@ html {
   }
   
   
-  .alerta-error {
+  .error {
     background-color: white;
     color: red;
     padding: 1rem;

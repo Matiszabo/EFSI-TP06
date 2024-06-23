@@ -1,7 +1,7 @@
 import './Lista.css';
 import {Cita} from '../Cita/Cita.js'
 
-export function Listado({ citas, setCitas}) {
+export function Lista({ citas, setCitas}) {
     return (
         <>
             {citas.map((item, id) => (

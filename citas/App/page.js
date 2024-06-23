@@ -1,6 +1,3 @@
-import { Navbar } from "@/components/Navbar/Navbar";
-import { Text } from "@/components/Text/Text";
-
 export default function Page() {
 
   const prompt = `

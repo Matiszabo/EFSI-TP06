@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar/Navbar";
-import { Text } from "@/components/Text/Text";
+import { Text } from "/components/Text/Text";
+
 
 export default function Page() {
 

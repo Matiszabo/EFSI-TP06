@@ -1,5 +1,4 @@
-import { Navbar } from "@/components/Navbar/Navbar";
-import { Text } from "@/components/Text/Text";
+import { Text } from "/components/Text/Text";
 
 export default function Page() {
     
@@ -12,7 +11,7 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      <h1>¡Estamos aquí para ayudarte!</h1>
+      <h1>¿Quieres contactarte con nosotros?</h1>
       <Text txt={prompt1} />
       <label>Correo Electrónico: LosGoats@gamil.com</label>
       <label>Teléfono: 15-5504-4225</label>

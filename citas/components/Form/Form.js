@@ -1,7 +1,7 @@
 import Boton from '../Boton/Boton';
-import './Formulario.css';
+import './Form.css';
 
-function Formulario({ citas, setCitas }) {
+function Form({ citas, setCitas }) {
 
   const validarDatos = (e) => {
     const mascota = e.target.nombremascota.value;
@@ -73,4 +73,4 @@ function Formulario({ citas, setCitas }) {
   );
 }
 
-export default Formulario;
+export default Form;
