@@ -4,10 +4,8 @@
   "homepage": "https://Matiszabo.github.io/EFSI-TP06",
   "private": true,
   "scripts": {
-    "dev": "next dev",  
+    "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
