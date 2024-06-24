@@ -4,7 +4,7 @@
   "homepage": "https://Matiszabo.github.io/EFSI-TP06",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev",  
     "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "run": "^1.5.0"
   },
   "devDependencies": {

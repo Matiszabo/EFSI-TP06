@@ -1,3 +1,4 @@
+import Text from "@/components/Text/Text";
 export default function Page() {
 
   const prompt = `
@@ -7,7 +8,6 @@ export default function Page() {
 
   return (
     <>
-      <Navbar />
       <h1>¡Bienvenido a la Clínica Los Goats!</h1>
       <Text txt={prompt} />
     </>

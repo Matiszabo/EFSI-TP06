@@ -1,4 +1,4 @@
-import Boton from '../Boton/Boton';
+import Boton from '@/components/Boton/Boton'
 import './Form.css';
 
 function Form({ citas, setCitas }) {
@@ -49,23 +49,23 @@ function Form({ citas, setCitas }) {
   return (
     <form onSubmit={crearCita}>
       <div className="casillaForm">
-        <label>Nombre Mascota</label>
+        <h3>Nombre Mascota</h3>
         <input type="text" name="nombremascota" placeholder="Nombre de tu mascota" required />
       </div>
       <div className="casillaForm">
-        <label>Nombre Dueño</label>
+        <h3>Nombre Dueño</h3>
         <input type="text" name="nombredueno" placeholder="Nombre dueño de la mascota" required />
       </div>
       <div className="casillaForm">
-        <label>Fecha</label>
+        <h3>Fecha</h3>
         <input type="date" name="fecha" required />
       </div>
       <div className="casillaForm">
-        <label>Hora</label>
+        <h3>Hora</h3>
         <input type="time" name="hora" required />
       </div>
       <div className="casillaForm">
-        <label>Sintomas</label>
+        <h3>Sintomas</h3>
         <textarea name="sintomas" required></textarea>
       </div>
       <Boton sendText={"Agregar Cita"} type="submit" evento=""></Boton>

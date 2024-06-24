@@ -1,6 +1,4 @@
-import './Lista.css';
-import {Cita} from '../Cita/Cita.js'
-
+import { Cita } from '../Cita/Cita';
 export function Lista({ citas, setCitas}) {
     return (
         <>

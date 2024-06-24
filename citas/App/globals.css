@@ -55,3 +55,14 @@ html {
     font-family: 'Staatliches', cursive;
   }
   
+
+  label {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 24px; 
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    font-weight: 0;
+  }
+  

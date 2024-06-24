@@ -10,7 +10,6 @@ export default function Page() {
     ¡Esperamos recibir noticias tuyas pronto!`
   return (
     <>
-      <Navbar />
       <h1>¿Quieres contactarte con nosotros?</h1>
       <Text txt={prompt1} />
       <label>Correo Electrónico: LosGoats@gamil.com</label>
