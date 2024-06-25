@@ -1,7 +1,7 @@
 import Boton from '@/components/Boton/Boton'
 import './Form.css';
 
-function Form({ citas, setCitas }) {
+export default function Form({ citas, setCitas }) {
 
   const validarDatos = (e) => {
     const mascota = e.target.nombremascota.value;
@@ -73,4 +73,3 @@ function Form({ citas, setCitas }) {
   );
 }
 
-export default Form;

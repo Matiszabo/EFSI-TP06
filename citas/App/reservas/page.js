@@ -1,11 +1,23 @@
 'use client'
 
-import { useState } from 'react';
-import Form from '@/components/Form/Form'; 
-import { Lista } from '@/components/Lista/Lista';
+import React, { useState, useEffect } from 'react';
+import Form from '../../components/Form/Form';
+import Lista from '../../components/Lista/Lista';
+
 
 export default function Page() {
   const [citas, setCitas] = useState([]);
+
+  useEffect(() => {
+    const citasGuardadas = localStorage.getItem('citas');
+    if (citasGuardadas) {
+      setCitas(JSON.parse(citasGuardadas));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('citas', JSON.stringify(citas));
+  }, [citas]);
 
   return (
     <>        

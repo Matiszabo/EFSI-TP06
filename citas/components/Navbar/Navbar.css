@@ -1,5 +1,5 @@
 nav {
-    color: #fff;    
+    color: #000000;    
     padding: 10px 20px; 
     
   }
@@ -22,6 +22,6 @@ nav ul li a {
   }
 
   a:hover{
-    color: rgb(9, 22, 134);
+    color: rgb(255, 255, 255);
   }
   
