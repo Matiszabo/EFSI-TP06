@@ -1,6 +1,6 @@
 import { Text } from "/components/Text/Text";
 
-export default function Page() {
+export default function Contacto() {
     
     const prompt1 = `En nuestra clinica los Goats, puedes consulatarnos si necesitas mas informacion sobre nuestros servicios o si deseas reservar una cita , no dudes en ponerte en contacto con nosotros.
     Te puedes comunicar con nosotros de la siguiente manera:`;
